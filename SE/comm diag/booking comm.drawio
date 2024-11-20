@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="X4dysmbaLa_lSgLOhSxS">
+    <mxGraphModel dx="2625" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:5px;text-align:left;&quot;&gt;interaction Booking&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=201;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="830" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-2" value="&lt;u&gt;:BookingUI&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-3" value="" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="220" width="24" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.408;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="280.0799999999999" y="240.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-5" value="&lt;u&gt;:BookingController&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="480" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8jOZzJQik_tBYt7YBAOf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="418" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="279.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-7" value="&lt;u&gt;:BookingDatabase&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="730" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-9" value="" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="740" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-10" value="Registered User" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="215" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="8jOZzJQik_tBYt7YBAOf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="250" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-12" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.0 : Submit booking request()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2.0 : Enter Personal details and payment info ()&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.0 : BookRoom()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="300" as="sourcePoint" />
+            <mxPoint x="430" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-14" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.1 BookRoom()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1.3[Rooms available] : SelectRoom()&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2.1: Enter personal details and payment info()&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3.1 : submit booking request()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-15" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.2 : displaydetails(Room)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.3&amp;nbsp; [ No Room available] : Select another option()&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.2&amp;nbsp; [ payment success] : confirm booking()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3.2 *[payment unsuccesful] [i := 1..3] : retry payment()&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="94" y="360" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404.09090909090924" y="475" as="sourcePoint" />
+            <mxPoint x="404" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-17" value="" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-20" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.1.1 : Validate personal Details()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3.1.1 : Validate booking and payment ()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8jOZzJQik_tBYt7YBAOf-5" target="8jOZzJQik_tBYt7YBAOf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="520" as="sourcePoint" />
+            <mxPoint x="550" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="600" />
+              <mxPoint x="270" y="600" />
+              <mxPoint x="270" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="584" as="sourcePoint" />
+            <mxPoint x="260" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.828;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490.0000000000001" y="560.0000000000001" as="sourcePoint" />
+            <mxPoint x="491.36" y="730.32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="730" as="sourcePoint" />
+            <mxPoint x="470" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1.046;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="451.5" y="726.32" as="sourcePoint" />
+            <mxPoint x="450" y="560.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-32" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.1.2 : Store booking()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3.1.1 : Check available Room ()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOZzJQik_tBYt7YBAOf-33" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.1.2 : Send room details()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="640" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

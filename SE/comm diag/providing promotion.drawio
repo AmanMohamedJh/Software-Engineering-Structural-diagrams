@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="NMN3HdXqNhA2N6YGjnFO">
+    <mxGraphModel dx="1318" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eymiVmar5DGtGDkxs6qB-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;margin-left:5px;text-align:left;&quot;&gt;interaction Providing Promotions&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=201;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="830" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-2" value="&lt;u&gt;:PromotionUI&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-3" value="" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="220" width="24" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.408;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="280.0799999999999" y="240.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-7" value="&lt;u&gt;:PromotionControl&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="678" y="580" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-8" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.385;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eymiVmar5DGtGDkxs6qB-7" target="eymiVmar5DGtGDkxs6qB-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="279.40999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-13" value="&lt;u&gt;:Promotiondatabase&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="900" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eymiVmar5DGtGDkxs6qB-13" target="eymiVmar5DGtGDkxs6qB-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="630" as="sourcePoint" />
+            <mxPoint x="470" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-19" value="" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="910" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-21" value="Hotel Manager" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="215" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.108;exitY=0.188;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eymiVmar5DGtGDkxs6qB-1" target="eymiVmar5DGtGDkxs6qB-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.0 : fill promotion form details ()&lt;/div&gt;1.0 : Navigate to create new Promotions()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-44" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.1 : Submit Form Details()&lt;/div&gt;1.1 : Request to create new promotions()&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="310" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-45" value="&lt;div&gt;2.3 : display confirmation success&lt;/div&gt;&lt;div&gt;2.1 *[if valid details form] : send confirmation notification ()&lt;/div&gt;&lt;div&gt;2.1 [if invalid or incomplete form] : display error message()&lt;/div&gt;&lt;div&gt;1.2 B : Show list edit option()&lt;/div&gt;&lt;div&gt;1.2 A :Show Promotion List&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="182" y="360" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="500" as="sourcePoint" />
+            <mxPoint x="480" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-49" value="" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="590" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.88;exitY=0.482;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.639;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780.0300000000001" y="679.9999999999999" as="sourcePoint" />
+            <mxPoint x="579.9999999999999" y="910.7200000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-52" value="2.1.1 : update promotion list()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="840" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-53" value="2.1.2 : confirmation promotion saved()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="810" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.88;exitY=0.482;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.639;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="901" as="sourcePoint" />
+            <mxPoint x="750" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-57" value="&lt;u&gt;:NotificationSystem&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-59" value="" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eymiVmar5DGtGDkxs6qB-57" target="eymiVmar5DGtGDkxs6qB-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="680" as="sourcePoint" />
+            <mxPoint x="540" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="670" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-63" value="&lt;div&gt;1.1.3 : notify about new promotions&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="585" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eymiVmar5DGtGDkxs6qB-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.723;exitY=0.509;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.241;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eymiVmar5DGtGDkxs6qB-1" target="eymiVmar5DGtGDkxs6qB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="680" as="sourcePoint" />
+            <mxPoint x="490" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
